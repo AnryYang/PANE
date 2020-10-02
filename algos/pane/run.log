@@ -1,0 +1,20 @@
+data: cora
+dimensionality: 128
+elapsed time(s): 4.71465110779
+time: 2020-10-02 13:30:53
+-----------------------
+data: cora
+dimensionality: 128
+elapsed time(s): 4.64764213562
+time: 2020-10-02 13:34:45
+-----------------------
+data: cora
+dimensionality: 128
+elapsed time(s): 11.4106049538
+time: 2020-10-02 13:35:42
+-----------------------
+data: cora
+dimensionality: 128
+elapsed time(s): 5.50201916695
+time: 2020-10-02 13:36:02
+-----------------------
