@@ -1,6 +1,6 @@
 ## Description
 This is the source code of PANE proposed in the conference paper titled "Scaling Attributed Network Embedding to Massive Graphs".
-The source code of the extended version of PANE to graphs with large attribute sets can be donwloaded from [here](https://github.com/AnryYang/PANE/releases/tag/pane%2B%2B)
+The source code of its extended version to graphs with large attribute sets can be donwloaded from [here](https://github.com/AnryYang/PANE/releases/tag/pane%2B%2B)
 
 ## Env Requirements
 - Linux
