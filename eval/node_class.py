@@ -83,7 +83,7 @@ if __name__ == '__main__':
 
     path_emb = folder + args.data + '.' + str(d) + '.bin'
     print("loading "+path_emb)
-    if args.algo=='pane':
+    if args.algo=='pane' or args.algo=='pane++':
         Xf = utils.load_emd(path_emb+".f", n, d/2, n-1)
         Xb = utils.load_emd(path_emb+".b", n, d/2, n-1)
         Xf = preprocessing.normalize(Xf, norm='l2', axis=1)
@@ -95,6 +95,8 @@ if __name__ == '__main__':
     
     path_label = settings.DATA_INFO[args.data]['path'] + 'labels.txt'
 
+    #print(X.shape, X)
+    
     maf1=[]
     mif1=[]
     if args.multi:
