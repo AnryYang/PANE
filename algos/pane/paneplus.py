@@ -4,6 +4,7 @@
 # mail: anryyang@gmail.com
 # Created Time: Wed 16 Feb 2022 10:09:10 AM
 #########################################################################
+
 #!/usr/bin/env/ python
 import time
 import datetime
@@ -245,7 +246,7 @@ if __name__=='__main__':
     parser.add_argument('--data', type=str, help='graph dataset name')
     parser.add_argument('--d', type=int, help='embedding dimensionality')
     parser.add_argument('--t', type=int, help='number of iterations')
-    parser.add_argument('--kappa', type=int, default=0, help='dim for compressed attributes')
+    parser.add_argument('--kappa', type=int, default=0, help='dim for compressed attributes')  #use the original PANE when kappa=0
     parser.add_argument('--full', type=int, help='use full graph (1) or train graph (0)')
     parser.add_argument('--mask', type=float, default=0, help='train ratio')
     args = parser.parse_args()
