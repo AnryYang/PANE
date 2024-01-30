@@ -6,6 +6,7 @@ This repository contains the latest source codes of PANE proposed in the confere
 - Python 2.7
 
 ## Data preprocessing
+Collect datasets from [here](https://renchi.ac.cn/datasets/).
 ```
 $ cd data/
 $ python split_train_test.py cora/edgelist.txt 0.3   # split edges into training set (70%) and positive test set (30%)
